@@ -5,11 +5,10 @@
 3. Получить навыки выполнения разведочного анализа данных использованием `pyspark`.
 
 #### Порядок выполнения работы:
-1. Установите [Docker Desktop on Windows](https://docs.docker.com/desktop/install/windows-install/).
-2. Запустите `Docker Desktop` и добейтесь его работоспособности.
-3. Склонируйте текущий репозиторий на компьютер:
+1. Запустите `Docker Desktop` и добейтесь его работоспособности или запустить [файл](advanced_pyspark_for_exploratory_data_analysis.ipynb)  в colab.
+3. Клонировать текущий репозиторий на компьютер в случае работы локально в Docker:
 > `$ git clone https://github.com/BosenkoTM/PySpark.git`
-4. Скачайте датасет, расположенный по адресу https://drive.google.com/file/d/1yiAp1fFDy3wSqUR0X_btCZPtuczbLwCe/view?usp=drive_link. Распакуйте его и поместите файл `endomondoHR.json` в директорию `data` проекта (если директория отсутствует, создайте ее).
+4. Скачайте датасет, расположенный по адресу `https://drive.google.com/file/d/1yiAp1fFDy3wSqUR0X_btCZPtuczbLwCe/view?usp=drive_link`. Распакуйте его и поместите файл `endomondoHR.json` в директорию `data` проекта (если директория отсутствует, создайте ее).
 5. Запустите докер-контейнер со средой разработки и инструментом `Apache Spark` и дождитесь завершения его работы.
 > `$ docker-compose up`
 6. Откройте браузер и перейдите по адресу: http://localhost:10000/lab
