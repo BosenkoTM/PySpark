@@ -5,7 +5,7 @@
 - Получить навыки выполнения разведочного анализа данных использованием `pyspark`.
 
 #### Порядок выполнения работы:
-1. Запустите конфигурацию `ds_mgpu_Hadoop3+spark_3_4` [скачать](http://95.31.0.249/moodle/mod/folder/view.php?id=1335) или запустить [файл](advanced_pyspark_for_exploratory_data_analysis.ipynb)  в colab.
+1. Запустите конфигурацию `ds_mgpu_Hadoop3+spark_3_4` [скачать](http://95.131.149.21/moodle/mod/folder/view.php?id=1335) или запустить [файл](advanced_pyspark_for_exploratory_data_analysis.ipynb)  в colab.
 2. Клонировать текущий репозиторий на компьютер в случае работы локально в Docker:
 > `$ git clone https://github.com/BosenkoTM/PySpark.git`
 3. Скачайте датасет, расположенный по адресу `https://drive.google.com/file/d/1yiAp1fFDy3wSqUR0X_btCZPtuczbLwCe/view?usp=drive_link` или [data](https://disk.yandex.ru/d/d80nsbNoP6F2vA). Распакуйте его и поместите файл `endomondoHR.json` в директорию `data` проекта (если директория отсутствует, создайте ее).
@@ -17,7 +17,6 @@
 **Обратите внимание:**
 * Для сокращения расчетного времени можно обрабатывать только часть датасета;
 * **Плагиат-работы не принимаются!**.
-
 
 
 #### Список теоретических вопросов к отчету:
@@ -89,10 +88,8 @@
 
 
 #### Литература для подготовки к отчету:
-1. Изучаем Spark: молниеносный анализ данных / Х. Карау, Э. Конвински, П. Венделл, М.М. Захария // ДМК Пресс, 2015. — 304 с.: ил.
-2. Data Exploration // Learning Apache Spark with Python [Электронный  ресурс] / W. Feng. - [2021]. - Режим доступа : https://runawayhorse001.github.io/LearningApacheSpark/exploration.html (дата обращ. 10.03.2024).
-3. Advanced Pyspark for Exploratory Data Analysis [Электронный  ресурс]. – [2022]. – Режим доступа : https://www.kaggle.com/code/tientd95/advanced-pyspark-for-exploratory-data-analysis (дата обращ. 10.03.2024). 
-4. Exploratory Data Analysis (EDA) with PySpark on Databricks [Электронный  ресурс]. – [2020]. – Режим доступа : https://towardsdatascience.com/exploratory-data-analysis-eda-with-pyspark-on-databricks-e8d6529626b1 (дата обращ. 10.03.2024).
-5. Exploratory data analysis with pySpark [Электронный  ресурс]. – [2020]. – Режим доступа : https://github.com/BosenkoTM/PySpark/tree/main/pySpark_tutorial-master (дата обращ. 10.03.2024).
-6. Официальный сайт Apache Spark [Электронный  ресурс]. – [2022]. – Режим доступа : https://spark.apache.org/ (дата обращ. 10.03.2024).
-7. Уайт, Т. Hadoop: Подробное руководство / Т. Уайт. — 3-е изд. — СПб. : Питер, 2013. — 672 с.: ил.
+1. Data Exploration // Learning Apache Spark with Python [Электронный  ресурс] / W. Feng. - [2021]. - Режим доступа : https://runawayhorse001.github.io/LearningApacheSpark/exploration.html (дата обращ. 10.03.2025).
+2. Advanced Pyspark for Exploratory Data Analysis [Электронный  ресурс]. – [2022]. – Режим доступа : https://www.kaggle.com/code/tientd95/advanced-pyspark-for-exploratory-data-analysis (дата обращ. 10.03.2025). 
+3. Exploratory Data Analysis (EDA) with PySpark on Databricks [Электронный  ресурс]. – [2020]. – Режим доступа : https://towardsdatascience.com/exploratory-data-analysis-eda-with-pyspark-on-databricks-e8d6529626b1 (дата обращ. 10.03.2025).
+4. Exploratory data analysis with pySpark [Электронный  ресурс]. – [2020]. – Режим доступа : https://github.com/BosenkoTM/PySpark/tree/main/pySpark_tutorial-master (дата обращ. 10.03.2025).
+5. Официальный сайт Apache Spark [Электронный  ресурс]. – [2022]. – Режим доступа : https://spark.apache.org/ (дата обращ. 10.03.2025).
