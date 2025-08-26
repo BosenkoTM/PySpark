@@ -5,7 +5,7 @@
 - Получить навыки выполнения разведочного анализа данных использованием `pyspark`.
 
 #### Порядок выполнения работы:
-1. Запустите конфигурацию `ds_mgpu_Hadoop3+spark_3_4` [скачать](http://95.131.149.21/moodle/mod/folder/view.php?id=1335) или запустить [файл](advanced_pyspark_for_exploratory_data_analysis.ipynb)  в colab.
+1. Запустите конфигурацию `ds_mgpu_Hadoop3+spark_3_4` [скачать](http://95.131.149.21/moodle/mod/folder/view.php?id=1335) или запустить [файл](https://github.com/BosenkoTM/PySpark/blob/main/advanced_pyspark_for_exploratory_data_analysis_student.ipynb)  в colab.
 2. Клонировать текущий репозиторий на компьютер в случае работы локально в Docker:
 > `$ git clone https://github.com/BosenkoTM/PySpark.git`
 3. Скачайте датасет, расположенный по адресу `https://drive.google.com/file/d/1yiAp1fFDy3wSqUR0X_btCZPtuczbLwCe/view?usp=drive_link` или [data](https://disk.yandex.ru/d/d80nsbNoP6F2vA). Распакуйте его и поместите файл `endomondoHR.json` в директорию `data` проекта (если директория отсутствует, создайте ее).
